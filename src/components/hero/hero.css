@@ -2,8 +2,9 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    
+
 }
+/* start here */
 .into-img{
     width: 100%;
     height: 100%;
@@ -26,6 +27,7 @@
     height: 100%;
     width: 100%;
     display: flex;
+    
 }
 .hero .right-h{
     position: absolute;
@@ -45,7 +47,7 @@
     margin-bottom: 3rem;
     
 }
-.hero .left-h{
+.hero .logo{
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -62,15 +64,13 @@
 @media screen and (max-width: 767px){
     
     .hero{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
     }
     .logo{
         width: 20vh;
         height: 20vh;
         left: 50%;
-        justify-self: center;
+        align-self: center;
         margin-top:50%;
         margin: auto;
        
@@ -90,14 +90,13 @@
         margin-bottom: 2rem;
         
     }
-    .btn{
-    width: 10px;
+
 }
     
     
 
    
-}
+
 @media screen and (min-width: 767px)and (max-width: 1023px){
 
 }
