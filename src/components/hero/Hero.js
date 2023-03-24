@@ -20,6 +20,7 @@ const Hero = () => {
         <Link className='btn' to='/about'>About us</Link>
         <Link className='btn contact' to='/about'>Contact Us</Link>
 
+      
       </div>
       </div>
     
