@@ -8,7 +8,7 @@ const Navbar = () => {
     const handleClick = () => Setclick(!click);
   return (
     <div className='header'>
-        <Link>
+        <Link to='/'>
             VmRanda
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu" }>
