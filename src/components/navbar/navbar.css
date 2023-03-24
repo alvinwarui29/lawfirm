@@ -52,8 +52,9 @@
        position: absolute;
        top: -100%;
        left: 0;
-       z-index: -3;
-       transition: 3s;
+       z-index: 3;
+       transition: 2s;
+       background-color: #000;
     }
     .nav-menu.active{
         top: 0;
@@ -69,6 +70,10 @@
     }
     .hamburger{
         display: initial;
+        z-index: 20;
+    }
+    .header>a{
+        z-index: 23;
     }
   }
   /* medium size */
@@ -76,7 +81,7 @@
         .nav-menu{
             font-size: 1.4rem;
             float: right;
-           
+          
             
         }
         .header>a{
