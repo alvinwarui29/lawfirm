@@ -5,6 +5,7 @@
     font-weight: bold;
     padding: 1rem;
     align-items: center;
+    height: 15vh;
    
 }
 .header>a:hover{
