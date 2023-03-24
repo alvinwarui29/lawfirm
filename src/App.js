@@ -1,17 +1,18 @@
 import React from 'react';
 import {Route,Routes} from 'react-router-dom';
-import home from './routes/home';
-import about from './routes/about';
-import services from './routes/services';
-import contact from './routes/home';
+import Home from './routes/home';
+import About from './routes/about';
+import Services from './routes/services';
+import Contact from './routes/contact';
 function App() {
   return (
     <>
+    < home/>
       <Routes>
-        <Route path='/' element= {<home/>} />
-        <Route path='/about' element= {<about/>} />
-        <Route path='/services' element= {<services/>} />
-        <Route path='/contact' element= {<contact/>} />
+      <Route path='/' element= {< Home />} />
+        <Route path='about' element= {< About/>} />
+        <Route path='services' element= {< Services/>} />
+        <Route path='contact' element= {< Contact/>} />
       </Routes>
     </>
   );
