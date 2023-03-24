@@ -22,3 +22,39 @@
      top: 0;
      left: 0;
 }
+.hero{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.hero .right-h{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    text-align: center;
+   
+}
+.right-h>h1{
+    text-transform: uppercase;
+    color: #fff;
+}
+.right-h>p{
+    font-size: 2rem;
+    
+}
+.hero .left-h{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    top: 60%;
+    left: 10%;
+    text-align: center;
+}
+.logo{
+    width: 50vh;
+    height: 50vh;
+    left: 30%;
+   
+}

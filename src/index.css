@@ -9,9 +9,27 @@
   /* font-family: 'Noto Sans Mono', monospace; */
   font-family: 'Sono', sans-serif;
   box-sizing: border-box;
-  background-color: var(--primary-color);
   color: var(--text-color);
 }
 html{
   scroll-behavior: smooth;
+}
+body{
+  background-color: var(--primary-color);
+
+}
+.contact{
+  margin-left: 20px;
+}
+.btn{
+  background-color: #596CEF;
+  color:white ;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+  list-style: none;
 }
