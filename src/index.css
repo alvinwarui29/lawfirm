@@ -1,12 +1,13 @@
 :root{
   --primary-color: #7021C4;
   --text-color:#0DB561;
-  --btn-color:#0D693B;
-  --btn-text-color:#B58831;
+  --btn-color:#A87DFF;
+  --btn-text-color:white;
 }
 *{
   /* font-family: 'Noto Sans Mono', monospace; */
   font-family: 'Sono', sans-serif;
+  box-sizing: border-box;
   background-color: var(--primary-color);
   color: var(--text-color);
 }
