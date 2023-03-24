@@ -7,6 +7,14 @@
     align-items: center;
    
 }
+.header>a:hover{
+    font-size: 2rem;
+    
+}
+.nav-menu>a:hover{
+    font-size: 2rem;
+    
+}
 .hamburger{
     display: none;
 }
@@ -15,12 +23,14 @@
     text-decoration: none;
     list-style: none;
     padding: 1rem 0;
+    transition: font-size 1s ease-in-out;
 }
 .nav-menu{
     display: flex; 
 }
 .nav-menu>a{
     padding: 0 1rem;
+    transition: font-size 1s ease-in-out;
     margin-right: 3rem;
     text-decoration: none;
     list-style: none;
