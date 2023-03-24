@@ -1,8 +1,9 @@
 :root{
-  --primary-color: #7021C4;
-  --text-color:#0DB561;
-  --btn-color:#A87DFF;
-  --btn-text-color:white;
+  --primary-color: #000000;
+  --text-color:#A87DFF;
+  /* #0DB561 */
+  --btn-color:#000099;
+  --btn-text-color:white ;
 }
 *{
   /* font-family: 'Noto Sans Mono', monospace; */
@@ -11,4 +12,6 @@
   background-color: var(--primary-color);
   color: var(--text-color);
 }
-
+html{
+  scroll-behavior: smooth;
+}
