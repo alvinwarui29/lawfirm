@@ -5,15 +5,15 @@ import logo from '../../assets/logo.png';
 const Navbar = () => {
   return (
     <div className="header">
-        <Link to='/'>
-            {/* <img src={logo} alt="" /> */}
-            <h2>VmRanda</h2>
+        <Link>
+            VmRanda
         </Link>
-        <ul>
-        <Link to='/'>Home</Link>
-            <Link to='about' >About us</Link>
-            <Link to='services'>Services</Link>
-            <Link to='contact' >Contact Us</Link>
+        <ul className="nav-menu">
+            <Link to='/'>Home</Link>
+            <Link to='/about'>About </Link>
+            <Link to='/services' >Services</Link>
+            <Link to ='/contact'>Contact</Link>
+            
         </ul>
     </div>
   )
