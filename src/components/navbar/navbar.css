@@ -1,0 +1,9 @@
+.header{
+    top: 0;
+    padding: 0;
+}
+.header>a>img{
+    width: 5rem;
+    height: 2rem;
+    object-fit: contain;
+}
