@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link to ='/contact'>Contact</Link>
             
         </ul>
-        
+        {/* <button>hello</button> */}
     </div>
   )
 }
