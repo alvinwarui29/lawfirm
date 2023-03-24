@@ -11,9 +11,9 @@ const Hero = () => {
       <img src={hero} alt="" className='into-img' />
     </div>
       
-      <div className="left-h">
+      
           <img src={logo} alt="" className='logo'/>
-      </div>
+      
       <div className="right-h">
         <h1>VmRanda advocates and co. Truth and justice</h1>
         <p>Compassionate Counsel. Aggressive Advocacy.</p>
