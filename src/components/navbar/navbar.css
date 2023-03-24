@@ -1,14 +1,31 @@
 .header{
     display: flex;
     justify-content: space-between;
-
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    align-items: center;
+   
+}
+.header>a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem 0;
 }
 .nav-menu{
     display: flex; 
 }
-.nav-menu a{
+.nav-menu>a{
     padding: 0 1rem;
     margin-right: 3rem;
     text-decoration: none;
     list-style: none;
+    background-color: transparent;
 }
+
+@media (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  }
