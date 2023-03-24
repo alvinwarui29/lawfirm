@@ -5,7 +5,8 @@
     font-weight: bold;
     padding: 1rem;
     align-items: center;
-    height: 15vh;
+    height: 90px;
+    
    
 }
 .header>a:hover{
@@ -24,6 +25,7 @@
     text-decoration: none;
     list-style: none;
     padding: 1rem 0;
+    
     transition: font-size 1s ease-in-out;
 }
 .nav-menu{
