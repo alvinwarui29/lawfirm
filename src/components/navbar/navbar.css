@@ -27,7 +27,7 @@
     color: var(--btn-text-color);
     background-color: var(--btn-color);
 } */
-
+/* small screen sizes */
 @media screen and (max-width: 767px) {
     .nav-menu{
        flex-direction: column;
@@ -42,13 +42,26 @@
     }
     .nav-menu>a{
         font-size: 1.5rem;
+        padding: 1rem 0;
     }
     .header>a{
         font-size: 1.4rem;
+        padding: 1rem 0;
     }
   }
+  /* medium size */
   @media screen and (min-width: 767px)and (max-width: 1023px){
         .nav-menu{
-            font-size: 1rem;
+            font-size: 1.4rem;
+            float: right;
+           
+            
+        }
+        .header>a{
+            font-size: 2rem;
         }
   }
+  /* @media screen and (min-width:1024px){
+    .nav-menu{
+            }
+  } */
