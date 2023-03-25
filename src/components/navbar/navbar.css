@@ -14,8 +14,9 @@
     font-size: 2rem;
     
 }
-.nav-menu>a:hover{
+.header .nav-menu>a:hover{
     font-size: 2rem;
+    cursor: pointer;
     
 }
 .hamburger{
@@ -26,11 +27,12 @@
     text-decoration: none;
     list-style: none;
     padding: 1rem 0;
-    
+    cursor: pointer;
     transition: font-size 1s ease-in-out;
 }
 .nav-menu{
     display: flex; 
+    cursor: pointer;
 }
 .nav-menu>a{
     padding: 0 1rem;
@@ -38,6 +40,7 @@
     margin-right: 3rem;
     text-decoration: none;
     list-style: none;
+    cursor: pointer;
     background-color: transparent;
 }
 /* button{
@@ -56,11 +59,13 @@
        top: -100%;
        left: 0;
        z-index: 3;
+       cursor: pointer;
        transition: 2s;
        background-color: #000;
     }
     .nav-menu.active{
         top: 0;
+        cursor: pointer;
     }
     
     .nav-menu>a{

@@ -1,9 +1,11 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
+import Footer from '../components/footer/Footer'
 const services = () => {
   return (
     <div>
       <Navbar/>
+      <Footer/>
     </div>
   )
 }
