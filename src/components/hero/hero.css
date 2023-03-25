@@ -47,6 +47,83 @@
     padding: 20px 0;
     margin: 20px 0;
 }
+.hero .right .content .about{
+    margin-left: 80px;
+    padding: 16px 25px;
+    transition: font-size ease-in-out 0.8s;
+}
+.hero .right .content .about:hover{
+    font-size: 1.1rem;
+    background-color: #77D4FC;
+}
+.hero .right .content .contact{
+    margin-left: 50px;
+    transition: font-size ease-in-out 0.8s;
+}
+.hero .right .content .contact:hover{
+    font-size: 1.1rem;
+    background-color: #77D4FC;
+}
+.buttons{
+    margin-top: 40px;
+}
+
+@media (max-width:768px) {
+    .hero{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .hero .left{
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero .left img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;   
+        margin:auto;
+    }
+    .hero .right{
+        display: flex;
+        width: 80%;
+        height: 20%;
+        align-items: center;
+       
+    }
+    .hero .right .content h1{
+        color: white;
+        margin-top: 0;
+        font-size: 1.3rem;
+    }
+    .hero .right .content p{
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+    .hero .right .content .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    .hero .right .content .buttons .about{
+            margin-left: 0;
+            margin-top: 5px;
+            margin-bottom: 2px;
+            padding: 8px 18px;
+    }
+    .hero .right .content .buttons .contact{
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        padding: 7px 9px;
+    }
+}
 
 
 
