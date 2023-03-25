@@ -187,9 +187,16 @@
         padding: 7px 9px;
     }
 }
-/* @media (min-width:450) and (max-width:) {
-    
-} */
+@media (min-width:319px) and (max-width:460px) {
+    .hero .right .content .contact{
+        padding: 16px 25px;font-size: 20px;
+    }
+    .hero .right .content .about{
+        padding: 16px 35px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
 
 
 
