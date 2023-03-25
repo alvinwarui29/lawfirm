@@ -8,11 +8,10 @@ const About = () => {
         <div className="left">
             <h3>Who are we?</h3>
             <p> we are a team of experienced attorneys who are dedicated to providing our clients with high-quality legal services. Our firm is comprised of skilled professionals who have a deep understanding of the law and a commitment to achieving the best possible results for our clients. </p>
-            <Link className='btn'>CONTACT</Link>
-
+            <Link to='/contact' className='btn button'>CONTACT</Link>
         </div>
         <div className="right">
-
+            {/* <img src={advocate} alt="" /> */}
         </div>
     </div>
   )
