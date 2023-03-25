@@ -1,0 +1,31 @@
+.services{
+    display:flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.08);
+}
+.services .card{
+    width: 600px;
+    margin-left: 20px;
+    padding: 30px ;
+    margin-bottom: 20px;
+
+}
+.services .card h3{
+    font-size: 2rem;
+}
+.services .card p{
+    font-size: 2rem;
+}
+.services .card1{
+    margin-bottom: 20px;
+}
+.services .card2{
+    margin-left: 660px;
+    margin-top: -60px;
+}
+.services .card4{
+    margin-left: 660px;
+    margin-top: -40px;
+}
