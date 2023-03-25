@@ -4,11 +4,24 @@
     grid-template-columns:600px 700px;
     grid-gap: 50px 0;
     margin-top: 40px;
-
+    
+}
+.mask{
+    width: 100vw;
+    opacity: 0.1;
+    height: 100vh;
+    z-index: -100;
+    position: relative;
+}
+.mask img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 .hero .left{
     overflow: hidden;
-
+    position: absolute;
+    margin-top: 90px;
 }
 .hero .left img{
     width: 500px;
@@ -19,9 +32,11 @@
 }
 .hero .right{
     display: flex;
+    margin-top: 90px;
     width: 80%;
     height: 80px;
     align-items: center;
+    position: relative;
    
 }
 .hero .right .content{
@@ -187,9 +202,16 @@
         padding: 7px 9px;
     }
 }
-/* @media (min-width:450) and (max-width:) {
-    
-} */
+@media (min-width:319px) and (max-width:460px) {
+    .hero .right .content .contact{
+        padding: 16px 25px;font-size: 20px;
+    }
+    .hero .right .content .about{
+        padding: 16px 35px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
 
 
 
