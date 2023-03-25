@@ -63,17 +63,28 @@
     
 }
 .hero .right-h h1{
-    padding: 4rem;
+    padding: 4rem 0 1rem ;
     font-size: 3rem;
+    margin-left: 90px;
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
 }
 .hero .right-h p{
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     font-size: 2rem;
     font-weight: bold;
 }
+.hero .right-h .two{
+    width: 500px;
+    margin-left: 150px;
+    line-height: 2rem;
+}
+.hero .right-h .buttons{
+    margin-top: 20px;
+    margin-left: -70px;
+}
 .hero .right-h .buttons a{
     margin-left: 20px;
+    margin-top: 70px;
 }

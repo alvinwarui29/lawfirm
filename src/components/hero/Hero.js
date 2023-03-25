@@ -18,6 +18,7 @@ const Hero = () => {
       <div className="right-h">
         <h1>VmRanda &CO. advocates</h1>
         <p>Truth and justice</p>
+        <p className="two">Compassionate Counsel. Aggressive Advocacy.</p>
         <div className="buttons">
           <Link className='btn' to='/about'>Learn more</Link>
           <Link className='btn' to="/contact">Get in Touch</Link>
