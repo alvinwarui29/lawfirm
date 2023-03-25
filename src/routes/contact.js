@@ -6,7 +6,7 @@ const contact = () => {
   return (
     <div>
       <Navbar/>
-      
+      <Hero/>
       <Footer/>
     </div>
   )
