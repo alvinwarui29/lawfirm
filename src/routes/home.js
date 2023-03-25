@@ -4,6 +4,7 @@ import Footer from '../components/footer/Footer'
 import Navbar from '../components/navbar/Navbar'
 import WhyUs from '../components/whyus/WhyUs'
 import About from '../components/about/About'
+import Services from '../components/services/Services'
 const home = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const home = () => {
     <Hero/>
     <WhyUs/>
     <About/>
+    <Services/>
     <Footer/>
     
     </div>
