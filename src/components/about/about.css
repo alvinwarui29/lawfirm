@@ -1,0 +1,22 @@
+.about{
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.left{
+    text-align: center;
+    line-height: 20px;
+}
+.left h3{
+    padding-bottom: 10px;
+    font-size: 1.9rem;
+}
+.left p{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.left a{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
