@@ -67,8 +67,7 @@
 .buttons{
     margin-top: 40px;
 }
-
-@media (max-width:768px) {
+/* @media(max-width:768px) {
     .hero{
         width: 100%;
         display: flex;
@@ -123,7 +122,100 @@
         margin-bottom: 2px;
         padding: 7px 9px;
     }
+} */
+
+
+
+@media (min-width:219px) and (max-width:316px) {
+    .hero .right .content .buttons .about{
+        font-size: 0.6rem;
+        padding: 7px 9px;
+    }
+    .hero .right .content .buttons .contact{
+        font-size: 0.6rem;
+        padding: 7px 9px;
+        margin-left: 10px;
+    }
+    .hero{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .hero .left{
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero .left img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;   
+        margin:auto;
+    }
+    .hero .right{
+        display: flex;
+        width: 80%;
+        height: 20%;
+        margin-top: 0;
+        align-items: center;
+       
+    }
+    .hero .right .content h1{
+        color: white;
+        margin-top: -35px;
+        font-size: 1.3rem;
+    }
+    .hero .right .content p{
+        font-size: 1rem;
+        margin-top: -15px;
+    }
+    .hero .right .content .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+    .hero .right .content .buttons .about{
+            margin-left: 0;
+            margin-top: -20px;
+            margin-bottom: 2px;
+            padding: 8px 18px;
+    }
+    .hero .right .content .buttons .contact{
+        margin-left: 20px;
+        margin-top: -20px;
+        margin-bottom: 2px;
+        padding: 7px 9px;
+    }
 }
+/* @media (min-width:450) and (max-width:) {
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
