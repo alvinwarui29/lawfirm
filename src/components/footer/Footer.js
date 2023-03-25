@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
         <div className="footer-container">
-            <div className="left">
+            <div className="left-f">
                 <div className="location">
                 <FaHome style={{color:'#fff',
                     marginRight:'2rem'
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 
             </div>
-            <div className="right">
+            <div className="right-f">
                     <h4>Copyright 2023 VmRanda &co advocates. All Rights Reserved. This website is designed to provide general information only and does not constitute legal advice. Viewing this website or contacting us through it does not create an attorney-client relationship. If you need legal advice, please contact us to schedule a consultation.
                     </h4>
                     <div className="socials">
