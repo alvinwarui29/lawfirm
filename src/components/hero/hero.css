@@ -1,10 +1,95 @@
-.mask{
+/* body{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+} */
+.hero{
+    width: 90%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: 600px 700px;
+    grid-gap: 50px 80px;
+    margin-top: 40px;
+}
+.hero .left{
+    overflow: hidden;
+}
+.hero .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.hero .right{
+    display: flex;
+    align-items: center;
+}
+.hero .right .content{
+    padding-left: 20px;
+    width: 100%;
+    margin-left: 20px;
+}
+.hero .right .content h1{
+    color: white;
+    font-size: 3rem;
+    margin-top: -10px;
+}
+.hero .right .content p{
+    font-size: 2.4rem;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .mask{
     width: 100%;
     height: 100vh;
     position: relative;
 
 }
-/* start here */
+start here
 .into-img{
     width: 100%;
     height: 100%;
@@ -99,4 +184,4 @@
 
 @media screen and (min-width: 767px)and (max-width: 1023px){
 
-}
+} */
