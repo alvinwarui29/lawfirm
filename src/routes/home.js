@@ -5,6 +5,7 @@ import Navbar from '../components/navbar/Navbar'
 import WhyUs from '../components/whyus/WhyUs'
 import About from '../components/about/About'
 import Services from '../components/services/Services'
+import Contact from '../components/contact/Contact'
 const home = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const home = () => {
     <WhyUs/>
     <About/>
     <Services/>
+    <Contact/>
     <Footer/>
     
     </div>
