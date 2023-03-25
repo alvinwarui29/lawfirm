@@ -15,9 +15,10 @@ const Hero = () => {
           <div className="content">
           <h1>VmRanda & co advocates.Truth and justice</h1>
           <p>Compassionate Counsel. Aggressive Advocacy.</p>
-          <Link className='btn' to='/about'>About us</Link>
+          <div className="buttons">
+          <Link className='btn about' to='/about'>About us</Link>
           <Link className='btn contact' to='/about'>Contact Us</Link>
-
+          </div>
       
           </div>
       </div>
