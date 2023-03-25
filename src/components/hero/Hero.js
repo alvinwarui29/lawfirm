@@ -7,11 +7,10 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <div className="hero">
-    
-      <div className="left">
-      <img src={logo} alt="" />
-      </div>
-      <div className="right">
+        <div className="left">
+          <img src={logo} alt="" />
+        </div>
+        <div className="right">
           <div className="content">
           <h1>VmRanda & co advocates.Truth and justice</h1>
           <p>Compassionate Counsel. Aggressive Advocacy.</p>
@@ -21,7 +20,8 @@ const Hero = () => {
           </div>
       
           </div>
-      </div>
+        </div>
+      
       
     </div>
     
