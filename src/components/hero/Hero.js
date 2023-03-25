@@ -8,24 +8,23 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="mask">
-        <img src={hero} alt="" />
+        <img src={hero} alt="" className="into-img" />
       </div>
-        <div className="left">
-          <img src={logo} alt="" />
-        </div>
-        <div className="right">
-          <div className="content">
-          <h1>VmRanda & co advocates.Truth and justice</h1>
-          <p>Compassionate Counsel. Aggressive Advocacy.</p>
-          <div className="buttons">
-          <Link className='btn about' to='/about'>About us</Link>
-          <Link className='btn contact' to='/about'>Contact Us</Link>
+      {/* delete divs */}
+      <div className="divs">
+      <div className="left-h">
+        <img src={logo} alt="" />
+      </div>
+      <div className="right-h">
+        <h1>VmRanda &CO. advocates</h1>
+        <p>Truth and justice</p>
+        <div className="buttons">
+          <Link className='btn' to='/about'>Learn more</Link>
+          <Link className='btn' to="/contact">Get in Touch</Link>
           </div>
       
-          </div>
-        </div>
-      
-      
+    </div>
+    </div>
     </div>
     
   )
@@ -34,20 +33,3 @@ const Hero = () => {
 export default Hero
 
 
-// <div className="hero">
-//     <div className="mask">
-//       <img src={hero} alt="" className='into-img' />
-//     </div>
-      
-      
-//           <img src={logo} alt="" className='logo'/>
-      
-//       <div className="right-h">
-//         <h1>VmRanda advocates and co. Truth and justice</h1>
-//         <p>Compassionate Counsel. Aggressive Advocacy.</p>
-//         <Link className='btn' to='/about'>About us</Link>
-//         <Link className='btn contact' to='/about'>Contact Us</Link>
-
-      
-//       </div>
-//       </div>

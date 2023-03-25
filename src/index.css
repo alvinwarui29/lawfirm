@@ -29,7 +29,10 @@ body{
   padding: 1rem;
   border-radius: 20px;
   text-transform: uppercase;
-
+  transition: fontsize ease-in-out 0.8s;
+}
+.btn:hover{
+  font-size: 1.2rem;
 }
 a{
   text-decoration: none;
