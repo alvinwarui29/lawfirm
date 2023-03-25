@@ -11,7 +11,7 @@ const About = () => {
             <Link to='/contact' className='btn button'>CONTACT</Link>
         </div>
         <div className="right">
-            {/* <img src={advocate} alt="" /> */}
+            <img src={advocate} alt="" />
         </div>
     </div>
   )
