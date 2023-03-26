@@ -21,6 +21,7 @@
 }
 .hamburger{
     display: none;
+    color: var(--text-color);
 }
 .header>a{
     font-size: 1.2rem;
@@ -90,6 +91,9 @@
             
         }
         .header>a{
+            font-size: 2rem;
+        }
+        .nav-menu>a{
             font-size: 2rem;
         }
   }
