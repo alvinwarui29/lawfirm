@@ -110,3 +110,14 @@
         
     }
   }
+  @media only screen and (min-width:600px) {
+        .header{
+            height: 50px;
+        }    
+  }
+  @media only screen and (min-width:768px) {
+    .header{
+        height: 100px;
+    }    
+    
+}
