@@ -39,4 +39,8 @@
         margin: auto;
         grid-template-columns: 1fr;
     }
+    .card p{
+        font-size: 1.2rem;
+    }
+   
 }
