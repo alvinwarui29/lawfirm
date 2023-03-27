@@ -9,11 +9,7 @@ const WhyUs = () => {
             <h2>WHY US?</h2>
         </div>
         <div className="card-container">
-            <div className="card">
-                <h3>Transparent pricing</h3>
-                <span className="bar"></span>
-                <p>Here at VmRanda & Co., we value honesty and openness when it comes to pricing.You can rely on there being no unforeseen costs or hidden fees and only being charged for the services you actually require.</p>
-            </div>
+           
             <div className="card">
                 <h3>Many years of experience</h3>
                 <span className="bar"></span>
