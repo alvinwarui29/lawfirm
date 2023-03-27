@@ -2,7 +2,7 @@
     display:flex;
     flex-direction: column;
     margin-top: 6rem;
-    width: 100vw;
+    width: 100%;
     background: rgba(255, 255, 255, 0.08);
 }
 .services .card{
@@ -42,18 +42,60 @@
     }
     .services .card{
         width: 90%;
-        margin-left: 20px;
+        max-width: 100%;
+        margin-left: auto;
         text-align: center;
-        margin-bottom: 20px;
         justify-content: center;
     }
     .services .card2{
-        margin-left: 20px;
-        margin-top: 10px;
+        margin: 2rem auto;
+    }
+    .services .card1{
+        margin: auto;
+    }
+    .services .card3{
+        margin: auto;
     }
     .services .card4{
-        margin-left: 20px;
-        margin-top: 10px;
+        margin:2rem auto;
+    }
+    
+    
+}
+@media (max-width:1025px) {
+    .services{
+        display:flex;
+        flex-direction: column;
+        margin-top: 6rem;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.08);
+    }
+    .services .card{
+        width: 90%;
+        max-width: 100%;
+        margin-left: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .services .card2{
+        margin: 2rem auto;
+    }
+    .services .card1{
+        margin: auto;
+    }
+    .services .card3{
+        margin: auto;
+    }
+    .services .card4{
+        margin:2rem auto;
+    }
+    .services .card h3{
+        font-size: 2rem;
+    }
+    .services .card p{
+        line-height: 3rem;
     }
     
     
