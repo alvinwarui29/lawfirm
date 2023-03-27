@@ -1,7 +1,7 @@
 .whyUs{
     width: 100%;
     padding: 6rem 1rem;
-    background: #000;
+    background: var(--primary-color);
 }
 .heading{
     padding-bottom: 20px;

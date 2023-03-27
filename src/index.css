@@ -1,6 +1,6 @@
 :root{
-  --primary-color: #000000;
-  --text-color:#A87DFF;
+  --primary-color: #052449;
+  --text-color:#F5F5F5;
   /* #0DB561 */
   --btn-color:#000099;
   --btn-text-color:white ;
@@ -24,8 +24,8 @@ body{
   margin-left: 20px;
 }
 .btn{
-  background-color: #596CEF;
-  color:white ;
+  background-color: var(--primary-color);
+  color:var(--text-color) ;
   font-weight: bold;
   padding: 1rem;
   border-radius: 20px;
