@@ -1,10 +1,11 @@
 import './hero.css';
-import React from 'react';
+import React, { Component } from 'react';
 import hero from '../../assets/hero.jpg'
 import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom';
 
-const Hero = () => {
+class Hero extends Component {
+  render(){
   return (
     <div className="hero">
       <div className="mask">
@@ -17,8 +18,8 @@ const Hero = () => {
       </div>
       <div className="right-h">
         <h1>VmRanda &CO. advocates</h1>
-        <p>Truth and justice</p>
-        <p className="two">Compassionate Counsel. Aggressive Advocacy.</p>
+        <p>{this.props.heading}</p>
+        <p className="two">{this.props.text}</p>
         <div className="buttons">
           <Link className='btn' to='/about'>Learn more</Link>
           <Link className='btn' to="/contact">Get in Touch</Link>
@@ -29,7 +30,7 @@ const Hero = () => {
     </div>
     
   )
-}
+}}
 
 export default Hero
 
