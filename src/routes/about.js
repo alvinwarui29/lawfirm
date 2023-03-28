@@ -1,8 +1,11 @@
 import React from 'react'
-import Navbar from '../components/navbar/Navbar'
-import Footer from '../components/footer/Footer'
 import Hero from '../components/hero/Hero'
-import About from './../components/about/About';
+import Footer from '../components/footer/Footer'
+import Navbar from '../components/navbar/Navbar'
+
+import About from '../components/about/About'
+import WhyUs from './../components/whyus/WhyUs';
+
 
 const about = () => {
   return (
@@ -10,6 +13,7 @@ const about = () => {
     <Navbar/>
     <Hero heading='About Us' text="Learn more about us here" />
     <About/>
+    <WhyUs/>
     <Footer/>
     </div>
   )
