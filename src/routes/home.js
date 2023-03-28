@@ -6,11 +6,12 @@ import WhyUs from '../components/whyus/WhyUs'
 import About from '../components/about/About'
 import Services from '../components/services/Services'
 import Contact from '../components/contact/Contact'
+import hero from '../assets/hero.jpg'
 const home = () => {
   return (
     <div>
     <Navbar/>
-    <Hero heading="Truth and justice" text="Compassionate Counsel. Aggressive Advocacy." />
+    <Hero img={hero} heading="Truth and justice" text="Compassionate Counsel. Aggressive Advocacy." />
     <WhyUs/>
     <About/>
     <Services/>

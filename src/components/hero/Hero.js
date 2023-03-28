@@ -9,7 +9,7 @@ class Hero extends Component {
   return (
     <div className="hero">
       <div className="mask">
-        <img src={hero} alt="" className="into-img" />
+        <img src={this.props.img} alt="" className="into-img" />
       </div>
       {/* delete divs */}
       <div className="divs">
