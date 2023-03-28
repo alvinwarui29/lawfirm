@@ -24,7 +24,7 @@ body{
   margin-left: 20px;
 }
 .btn{
-  background-color: var(--primary-color);
+  background-color: var(--btn-color);
   color:var(--text-color) ;
   font-weight: bold;
   padding: 1rem;
@@ -34,8 +34,9 @@ body{
 }
 .btn:hover{
   font-size: 1.2rem;
-  background-color: #77D4FC;
+  background-color: var(--primary-color);
 }
+
 a{
   text-decoration: none;
   list-style: none;
