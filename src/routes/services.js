@@ -8,7 +8,7 @@ const services = () => {
   return (
     <div>
       <Navbar/>
-      <Hero/>
+      <Hero heading='Check out our services' text='Below is a list of the services we offer' />
       <Services/>
       <Footer/>
     </div>
