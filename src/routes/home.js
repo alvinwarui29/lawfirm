@@ -10,13 +10,15 @@ const home = () => {
   return (
     <div>
     <Navbar/>
-    <Hero/>
+    <Hero heading="Truth and justice" text="Compassionate Counsel. Aggressive Advocacy." />
     <WhyUs/>
     <About/>
     <Services/>
     <Contact/>
     <Footer/>
-    
+    Truth and justice
+
+Compassionate Counsel. Aggressive Advocacy.
     </div>
   )
 }
